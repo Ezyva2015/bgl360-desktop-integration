@@ -1,0 +1,184 @@
+
+.entry-title {
+    display:none !important;
+}
+
+
+.container-main  {
+    /*border:1px solid green;*/
+    padding:10% 0%;
+}
+
+
+
+
+
+.container-sub, .container-sub-import {
+    margin: auto;
+    /*width: 50%;*/
+    /*border:1px solid red;*/
+}
+.container-sub-import ul li {
+    list-style:none;
+}
+
+
+.container-sub div.row {
+    /*     border:1px solid  red; */
+    padding:10% 10%;
+}
+
+.container-sub div.row div {
+    /*     border:1px solid yellow; */
+    text-align:right !important;
+}
+
+.container-sub input[type='submit'] {
+    padding:0px;
+    margin:0px;
+    height:auto;
+    float:left;
+    border:1px solid grey;
+    border-radius:5px;
+    padding:0px 5px;
+}
+
+.container-sub input[type='file'] {
+    margin:auto;
+    border:1px solid red;
+    padding: 108px;
+    width:100% !important;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-file{
+    /*   border:1px solid red; */
+    position: relative;
+
+}
+
+
+.bgl360-di-fileupload-container {
+    border: 3px dashed black;
+}
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-message{
+    text-align: left !important;
+    position:absolute;
+    margin-top: 104px;
+    /* margin-left: 11%; */
+    z-index: 100;
+    /* border: 1px solid grey; */
+    font-size: 21px;
+    width: 366px;
+    word-wrap: break-word;
+}
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-icon{
+    position:absolute;
+    margin-top: 11%;
+    margin-left: 69%;
+    z-index: 100;
+    /*     border: 1px solid green; */
+}
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-icon img {
+    height: 84px;
+}
+
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-loading{
+    position:absolute;
+    /*display: block;*/
+    margin-top: -33px;
+    /* margin-left: 20px; */
+    margin-left: -1px;
+    /* border:1px solid red; */
+    display: none;
+    /* height: 20px; */
+}
+
+.bgl360-di-fileupload-container div.bgl360-di-fileupload-loading img{
+    height:20px;
+}
+
+
+.bgl360_di_error {
+    color:red;
+    /* margin-left: 251px; */
+    /* margin-bottom: -147px; */
+}
+
+
+#fundMemberSelected {
+    padding: 5px;
+}
+
+#import_at  {
+    padding: 5px;
+    /* margin-top: 20px; */
+    margin-left: 31px;
+}
+
+
+@media only screen and (min-width:648px) and (max-width: 1204px)  {
+
+    .bgl360-di-fileupload-message {
+        margin-top:60px !important;
+    }
+
+    .bgl360-di-fileupload-icon {
+        margin-top:100px !important;
+        margin-left:200px !important;
+        /*          border:1px solid red !important; */
+    }
+}
+
+
+
+@media only screen and (min-width:531px) and (max-width: 638px)  {
+    .bgl360-di-fileupload-message {
+        margin-top:60px !important;
+    }
+    .bgl360-di-fileupload-icon {
+        margin-top:100px !important;
+        margin-left:200px !important;
+        /*          border:1px solid red !important; */
+    }
+}
+
+
+
+@media only screen and (min-width:450px) and (max-width:530px)  {
+
+    .bgl360-di-fileupload-message {
+        margin-top:50px !important;
+        margin-left:-50px !important;
+    }
+
+    .bgl360-di-fileupload-icon {
+        margin-top:100px !important;
+        margin-left:130px !important;
+        /*         border:1px solid green !important; */
+    }
+
+}
+
+
+
+@media only screen and  (max-width:449px)  {
+
+    .bgl360-di-fileupload-message {
+        margin-top:50px !important;
+        margin-left:-50px !important;
+    }
+
+    .bgl360-di-fileupload-icon {
+        margin-top:100px !important;
+        margin-left:130px !important;
+        /*         border:1px solid yellow !important; */
+    }
+}
+
+
